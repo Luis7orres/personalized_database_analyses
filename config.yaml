@@ -1,0 +1,13 @@
+general:
+  input: /mnt/lustre/scratch/nlsas/home/uvi/bg/sbg/Mantella_Chytrrid_28S/plate1/basecalling_sup_28022025_Sofia/Mentella_plate1.fastq
+  ouptut: /mnt/lustre/scratch/nlsas/home/uvi/bg/sbg/Mantella_Chytrrid_28S/test_pipeline/ouptut
+  results: /mnt/lustre/scratch/nlsas/home/uvi/bg/sbg/Mantella_Chytrrid_28S/test_pipeline/results
+  logs: /mnt/lustre/scratch/nlsas/home/uvi/bg/sbg/Mantella_Chytrrid_28S/test_pipeline/logs
+
+parameters:
+  barcode_threshold: 75
+  window_size: 4
+  tail_window_sz: 4
+  tail_mean_quality: 10
+  min_lenght: 200
+  
